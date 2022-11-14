@@ -26,11 +26,13 @@ of them weighing even number of kilos; and NO in the opposite case.
 """
 
 import random
-# w = input("Watermolon weight ...")
-w = random.randrange(1, 100, 1)
-print("Watermolon weight ...",w)
 
-if w%2==0:
-    print("Yes",)
+w = int(input("Watermelon weight ..."))
+# w = random.randrange(1, 100, 1)
+
+# print("Watermelon weight", w, "kg")
+
+if w % 2 == 0 and w > 2:
+    print("Yes", )
 else:
     print("No")
