@@ -1,1 +1,3 @@
-print(2**100)
+a = 5
+x = a % 2
+print(x)
