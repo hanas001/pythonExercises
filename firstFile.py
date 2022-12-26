@@ -1,2 +1,5 @@
-s = "261235"
+s = "m n"
+sUp = s.capitalize()
+print(s)
+print(sUp)
 
